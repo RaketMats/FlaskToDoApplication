@@ -1,0 +1,16 @@
+This is a competence project building a simple todo-app in Flask.
+
+Inspiration comes from both the FlaskMegaTutorial and the 'flaskPythonSpot'-competence project, see documentation in these projects for further details.
+
+The main areas to cover are:
+- Flask
+- Bootstrap for GUI
+- JQuery for Ajax etc. functionality
+
+Start via:
+- 'venv\Scripts\activate.ps1'
+- 'python app.py'
+- '127.0.0.1:5000\Test2'
+  - The original page, '127.0.0.1:5000\ToDoPage' does not work by some reason
+
+There are then some mechanism for entering a todo, showing etc. via JSon objects.
