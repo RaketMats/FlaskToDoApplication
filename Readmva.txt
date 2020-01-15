@@ -1,5 +1,8 @@
 This is a competence project building a simple todo-app in Flask.
 
+Note: Moved to git, in repo 'FlaskToDoApplication'
+- Not sure that this is the last repo, I took the version under NoaAndPappa, might be that there is a newer on one of the Raspberrys or under Project\Python?
+
 Inspiration comes from both the FlaskMegaTutorial and the 'flaskPythonSpot'-competence project, see documentation in these projects for further details.
 
 The main areas to cover are:
