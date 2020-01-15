@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>To Do Application</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="static/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="static/css/signin.css" rel="stylesheet">
+
+   <script src="static/js/jquery-1.9.0.js"></script>
+   <script src="static/js/todo.js"></script>
+
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8" style="background-color:darkgrey;">
+            <h1>To Do Application</h1>
+            Manage things to do in a simple manner  
+        </div> <!-- col-sm-8 -->
+      </div> <!-- /row -->
+
+      <div class="row">
+        <div class="col-sm-8" border-width:13px style="background-color:slategrey;">
+            <textarea rows="8" cols="80" id="txtToDo" name="txttodo" autofocus style="background-color:darkgrey;">some things to do...</textarea>  
+            <button type="button" id="cmdToDo" onclick="AddToDo()" accesskey="A">Add</button>
+            <button type="button" id="cmdGetToDo" onclick="GetToDo()" accesskey="G">Get</button>
+        </div> <!-- col-sm-8 -->
+      </div> <!-- /row -->
+
+      <div class="row">
+          <span class="rounded">
+              <div class="col-sm-8" style="background-color:darkgray;">
+          <p id="todolist">List of todos...</p>
+        </span>
+      </div> <!-- col-sm-8 -->
+      </div> <!-- /row -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+  </body>
+</html>
+
