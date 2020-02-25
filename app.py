@@ -19,6 +19,11 @@ def signUp():
     print('hello from ajax reference page')
     return render_template('ajaxRefPage.html')
 
+@app.route('/guiTests')
+def guiTests():
+    print('hello from the GUI tests page')
+    return render_template('guitests.html')
+
 @app.route('/signUpUser', methods=['POST'])
 def signUpUser():
     print('hello from signUpUser')
